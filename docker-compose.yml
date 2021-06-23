@@ -21,9 +21,9 @@ services:
     ports:
       - 3306:3306
     environment:
-      - MYSQL_ROOT_PASSWORD=rootpassword
-      - MYSQL_USER=mysqluser
-      - MYSQL_PASSWORD=mysqlpw
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=root
   tram-cdc-service:
     image: eventuateio/eventuate-tram-cdc-mysql-service:0.11.0.RELEASE
     ports:
